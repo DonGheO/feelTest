@@ -44,6 +44,7 @@
                 </div>
             </div>
         </header>
+        
         <!-- Features section-->
         <section class="py-5 border-bottom" id="features">
             <div class="container px-5 my-5">
@@ -51,28 +52,61 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
                         <h2 class="h4 fw-bolder">Team</h2>
-                        <p>Cezar & Dragoș</p>
-                        <a class="text-decoration-none" href="#!">
+                        <p>Gheorghe Dragoș (irinel.gheorghe@stud.etti.upb.ro)</p>
+                        <p>Stoian Cezar (cezarstoian1@gmail.com)</p>
+                        <!-- <a class="text-decoration-none" href="#!">
                             Expand contact info
-                            <i class="bi bi-arrow-right"></i>
+                            <i class="bi bi-arrow-right"></i> -->
                         </a>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
                         <h2 class="h4 fw-bolder">Project Roles</h2>
-                        <p>Frontend (FR): Dragos</p>
-                        <p> Backend (BE): Cezar</p>            
                         <p> Product Owner (PO): Dragos</p> 
-                        <p>Project Manager (PM): Cezar.</p>
-                        <a class="text-decoration-none" href="#!">
+                        <p> Project Manager (PM): Cezar</p>
+                        <p> Frontend (FE): Dragos</p>
+                        <p> Backend (BE): Cezar</p>            
+                        <!-- <a class="text-decoration-none" href="#!">
                             Call to action
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
                     </div>
 
                 </div>
             </div>
         </section>
+        <style>
+    
+            button#openButton {
+                background-color: #3498db;
+                color: #fff;
+                padding: 10px 20px;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+    
+            button#openButton:hover {
+                background-color: #2980b9;
+            }
+        </style>
+            <body>
+                <button class="text-center" id="openButton" onclick="openLandingPage()">Open Landing Page</button>
+            
+                <script>
+                    function openLandingPage() {
+                        // Add code here to open Landing_Page.html
+                        window.location.href = 'Landing_Page.html';
+                    }
+                </script>
+            </body>
         <section class="bg-light py-5 border-bottom">
             <div class="container px-5 my-5">
                 <div class="text-center mb-5">
@@ -231,6 +265,8 @@
                 </div>
             </div>
         </section>
+        <h1>Wireframe</h1>
+        <img src="Wireframe.png" alt="Description of the image">
         <!-- Testimonials section-->
         <section class="py-5 border-bottom">
             <div class="container px-5 my-5 px-5">
@@ -246,13 +282,13 @@
                                     <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
                                         <p class="mb-1">
-                                            -> Problem almost hit us more that we tried to hit it. We were fortunate enough to invest the R&D before the official launche</p>
-                                            <p class="mb-1">-> As a solution for this problem and what we are trying to implemnet is a automate monitor fot all the corporate shenanigans focused on you guessed what, focus groups</p>
+                                            <p class="mb-1">-> Problem almost hit us more than we tried to hit it. We were fortunate enough to invest the R&D before the official launch</p>
+                                            <p class="mb-1">-> As a solution for this problem and what we are trying to implemnet is a automate monitor for all the corporate shenanigans focused on you guessed what, focus groups</p>
                                             <p class="mb-1">-> To discover our customers we plan to make an add for advertisment companies.</p>
-                                            <p class="mb-1">Detailed discovery process should go as following: - Ask around -> We shall ping each and every one of our start-up parteneres which are in the process of testing a new product and want a first impression from a focus group
+                                            <p class="mb-1">Detailed discovery process should go as following: - Ask around -> We shall ping each and every one of our start-up partners which are in the process of testing a new product and want a first impression from a focus group
                                                 -> We will provide a demo focus group for the add/app/product with detailed areas/minute/buttons that the user can click on and give feedback
                                             </p>
-                                            <p class="mb-1">-> Our product was briefly tested in the past with the psoibility of bigger investments. For the moment, we will focus on the software implemntation and pinpoint the future hardware requests.
+                                            <p class="mb-1">-> Our product was briefly tested in the past with the posibility of bigger investments. For the moment, we will focus on the software implementation and pinpoint the future hardware requests.
                                                 As for the moment, hardware implementaion will only be a blackbox that will be rented to the customer for a period of time. The blackbox will be able to record the focus group and send the data to our cloud server for further analysis
                                             </p>
                                             <p class="mb-1">-> We are not in the process of selling our product. Further R&D should be invested to deliver a suitable experience from a frontend perspective</p>
@@ -261,8 +297,127 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Testimonial 2-->
                         
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"></div>
+                                    <i class="text-primary fs-1"> Identifying the problem </i>
+                                    <div class="ms-4">
+                                        <p class="mb-1">
+                                            Our journey began when we noticed a significant inefficiency in traditional focus group testing methods used for marketing purposes. These methods were not only resource-intensive, relying heavily on paper, but also suffered from limitations in providing real-time feedback and insights. We recognized that there was a clear need for a more efficient and data-driven approach to help companies understand consumer reactions to their products.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"></div>
+                                    <i class="text-primary fs-1"> The solution </i>
+                                    <div class="ms-4">
+                                        <p class="mb-1">
+                                            We envisioned a solution in the form of a wearable device that individuals could attach to themselves. This device would capture and transmit real-time stimuli information based on the content they were engaging with (e.g., products, services, ads). This data would be sent to our database, where it could be analyzed to provide valuable insights into what parts of the content kept the person focused and interested. The aim was to enable companies to create better products and marketing campaigns by harnessing this real-time behavioral data.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"></div>
+                                    <i class="text-primary fs-1"> The plan for customer discovery </i>
+                                    <div class="ms-4">
+                                        <p class="mb-1">
+                                            Our plan for customer discovery involved a multi-faceted approach to understand the market, identify potential customer segments, and gather insights. We initially aimed to identify and engage with marketing and advertising professionals, market researchers, and product development teams as our primary customer segments. Our approach consisted of the following steps:
+                                            <p></p>
+                                            - We conducted in-depth market research to identify potential customer segments interested in improving their marketing strategies. We focused on those segments who regularly conducted focus group testing or market research to gain insights into consumer behavior. These segments include marketing and advertising professionals, market researchers, and product development teams. By pinpointing these groups, we can tailor your approach to their specific needs and pain points.
+                                            <p></p>
+                                            - To reach potential customers, we leveraged a combination of online and offline channels. We contacted some marketing experts via social platforms, such as LinkedIn. Additionally, we will attend industry conferences and networking events to connect with professionals in marketing and market research.
+                                            <p></p>
+                                            - We used/will use a multi-pronged approach to collect information. This included conducting face-to-face or online interviews with professionals distributing. Also, we will create an online questionnaires. Our questions revolved around the pain points they experienced in traditional focus group testing, their interest in real-time behavioral data, and the potential benefits they saw in our solution.
+                                            <p></p>
+                                            - The insights we gathered were invaluable. We learned that professionals in marketing and market research were indeed facing challenges with traditional focus group testing, particularly in terms of cost, time, and the delay in feedback. They showed a keen interest in real-time data containing the tester's emotions and believed it could significantly enhance their decision-making processes. This feedback played a crucial role in shaping our product features and marketing strategies.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"></div>
+                                    <i class="text-primary fs-1"> Questions we asked </i>
+                                    <div class="ms-4">
+                                        <p class="mb-1">
+                                            - Tell me about the last time you conducted a focus group or market research study. What was the process like?<br>
+                                              This question helps in understanding their current practices and experiences.
+                                            <p></p>
+
+                                            - What challenges or frustrations have you encountered when using traditional focus group testing methods?<br>
+                                            This question allows potential buyers to express their pain points and concerns without leading them toward our solution.
+                                            <p></p>
+
+                                            - How do you currently gather feedback on the effectiveness of your marketing campaigns and ads?<br>
+                                            Understanding their current methods will reveal if they are open to alternatives.
+                                            <p></p>
+
+                                            - What, if anything, do you think is missing from your current market research process?<br>
+                                            This question helps uncover unmet needs or areas where your solution could provide value.
+                                            <p></p>
+
+                                            - How important is real-time data and insights to you in making marketing decisions?<br>
+                                            This question gauges the potential customer's interest in the key feature of our product.
+                                            <p></p>
+
+                                            - What do you think about the idea of wearable devices that capture real-time consumer reactions to ads and products?<br>
+                                            Presenting the concept as an idea rather than a solution allows us to gauge initial reactions without leading them.
+                                            <p></p>
+
+                                            - Can you describe a specific situation where real-time data on consumer engagement would have been valuable to your work?<br>
+                                            This question encourages potential buyers to share practical scenarios where our product could be beneficial.
+                                            <p></p>
+
+                                            - If a solution like this existed, what would be the biggest hurdle for you in adopting it within your organization?<br>
+                                            This question helps identify potential objections or barriers to adoption.
+                                            <p></p>
+
+                                            - Have you ever considered or looked for alternatives to traditional focus group testing methods?<br>
+                                            This question explores their openness to new solutions and identifies if they've been actively seeking alternatives.
+                                            <p></p>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"></div>
+                                    <i class="text-primary fs-1"> Next steps </i>
+                                    <div class="ms-4">
+                                        <p class="mb-1">
+                                            Do we consider that we are ready to move to the next steps (Customer Validation)?
+                                            <p></p>
+                                            The answer is: Not yet! While we've made some significant progress in reaching out to potential customers in our target segment, we still need a bit more time to solidify our readiness for the Customer Validation stage.
+                                            <p></p>
+                                            One of the challenges we've encountered is that it's taking a little longer than expected to get in touch with the people from this segment. We want to ensure that we engage with a sufficient number of potential customers and gather their feedback comprehensively before proceeding to the next steps.
+                                            <p></p>
+                                            We're actively working on expanding our outreach and conducting more in-depth conversations with professionals in the marketing and advertising industry. We believe that by taking a few more days to connect with potential customers and gather their insights, we will be better prepared to validate our solution and ensure it aligns closely with the needs of our target audience.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2-->
                     </div>
                 </div>
             </div>
